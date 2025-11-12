@@ -75,10 +75,11 @@ Create a new user:
 ```bash
 sudo adduser devopsuser
 sudo usermod -aG sudo devopsuser
+```
 
 ---
 
-5. Installing Git and Configuring GitHub
+## 5. Installing Git and Configuring GitHub
 Install Git:
 sudo apt install git -y
 
@@ -91,7 +92,9 @@ ssh-keygen -t ed25519 -C "youremail@example.com"
 cat ~/.ssh/id_ed25519.pub
 Then add the key at GitHub → Settings → SSH and GPG keys → New SSH Key.
 
-6. Practice: Creating Your First Markdown Documentation
+---
+
+## 6. Practice: Creating Your First Markdown Documentation
 Create a simple README in Markdown:
 mkdir docs && cd docs
 nano README.md
@@ -100,7 +103,9 @@ Paste the following:
 This is a Markdown example created on Linux.
 Save and exit (Ctrl + O, Ctrl + X).
 
-7. Pushing to GitHub
+---
+
+## 7. Pushing to GitHub
 git init
 git add .
 git commit -m "Initial commit: Linux setup documentation"
@@ -108,22 +113,29 @@ git branch -M main
 git remote add origin git@github.com:Chisney25/linux-devops-lab-guide.git
 git push -u origin main
 
-8. Contributing
+---
+
+## 8. Contributing
 This is an open documentation project — feedback, edits, and suggestions are welcome.
 To contribute:
 1. Fork the repository.
 2. Make edits and test Markdown locally.
 3. Submit a pull request with a short description.
 
-9. License
+---
+
+## 9. License
 This project is licensed under the MIT License — free to use and modify with attribution.
 
-Summary
+---
+
+## Summary
 By completing this guide, you will:
 1. Understand the basics of Linux navigation and file permissions.
 2. Be able to document your own DevOps experiments.
 3. Use Git and Markdown for open-source collaboration.
 
+---
 
 
 
